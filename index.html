@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leprosos</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    .navbar {
+        background-color: #333;
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        transition: width 0.5s; /* Transición para adaptarse a la pantalla */
+    }
+    
+    .logo {
+        margin-top: 20px;
+    }
+    
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .menu li {
+        padding: 10px 0;
+    }
+    
+    .content {
+        margin-left: 200px;
+        padding: 20px;
+        transition: margin-left 0.5s; /* Transición para adaptarse a la pantalla */
+    }
+
+    h1 {
+        color: #c0392b;
+    }
+
+    p {
+        color: #7f8c8d;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #e74c3c;
+    }
+
+    @media screen and (max-width: 768px) {
+        .navbar {
+            width: 100px;
+        }
+        
+        .content {
+            margin-left: 100px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://cdn.discordapp.com/attachments/1198123784369086494/1211047583540183061/tYx1kRK3_400x400-removebg-preview.png?ex=65ecc6f4&is=65da51f4&hm=b2c53d4ebc51ca716224dd84a4d81eec974cb2a17d309c3f006f774fa8f86b11&" alt="Logo" width="100">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Bienvenid@ Leprosos</h1>
+            <p>Como estas, bienvenid@ a la pagina web oficial de Newell's Old Boys aqui puedes ser socio, vestirte como un verdadero <br>amante de La Lepra y ver fotos o demas cosas de un club y tambien de la hinchada! Todo esto en el chat abajo a la izqueirda!</p>
+        </div>
+    </div>
+</body>
+</html>
